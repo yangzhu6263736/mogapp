@@ -7,4 +7,5 @@
 > 给出一些例子代码：
 > 
 >     git clone https://github.com/yangzhu6263736/mogapp
+>     git submodule init
 >     git submodule update
