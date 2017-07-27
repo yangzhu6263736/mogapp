@@ -1,8 +1,8 @@
 <?php
 define('BASE_PATH', dirname(__FILE__));
-define('MOG_PATH', dirname(__FILE__).'/Mogic/');
+define('MOG_PATH', dirname(__FILE__).'/mogic/');
 define('APP_PATH', dirname(__FILE__).'/App/');
-include_once("Mogic/index.php");
+include_once(MOG_PATH."index.php");
 Mogic\Server::createServer('localhost', 3736);
 
 // $serv = new Swoole\Http\Server("localhost", 3736, SWOOLE_PROCESS);
