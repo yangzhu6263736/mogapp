@@ -1,0 +1,2 @@
+# mogapp
+demo of mogic
